@@ -2,13 +2,11 @@ import React, { Component } from "react";
 import {
   About,
   Banner,
-  CaseStudy,
   Education,
   Footer,
   Header,
   Project,
   Specilizing,
-  Testimonial,
 } from "../layouts/home/index";
 
 class Home04 extends Component {
@@ -24,8 +22,8 @@ class Home04 extends Component {
             <Specilizing />
             <Project />
             <Education />
-            <CaseStudy />
-            <Testimonial />
+            {/*<CaseStudy />*/}
+            {/*<Testimonial />*/}
             <Footer />
           </div>
         </div>

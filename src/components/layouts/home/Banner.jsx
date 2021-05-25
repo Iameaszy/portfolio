@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import { resumeUrl } from "./constants";
 class Banner extends Component {
   render() {
     return (
@@ -16,7 +17,7 @@ class Banner extends Component {
                 <span>Hello, </span>
                 <span className="cd-words-wrapper color-d6">
                   <b className="is-visible">I’m Yusuf!</b>
-                  <b>I’m Ola!</b>
+                  {/*<b>I’m Ola!</b>*/}
                   <b>I’m Easyclick!</b>
                 </span>
               </h1>
@@ -33,7 +34,7 @@ class Banner extends Component {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://drive.google.com/file/d/1v6ApAibTn0Kc9Ox8Wr_g8801boEA_eB0/view?usp=sharing"
+                  href={resumeUrl}
                   className="f-w500 color-d6 border-corner5 lt-sp01 text-two">
                   Download Resume
                 </a>

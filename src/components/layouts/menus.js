@@ -1,31 +1,28 @@
-const menus = [
-    {
+const menus = [{
         id: 1,
         tomenu: "#about",
-        namemenu: "About"
+        namemenu: "About",
     },
     {
         id: 2,
         tomenu: "#services",
-        namemenu: "services"
+        namemenu: "services",
     },
     {
         id: 3,
-        tomenu: "#portfolio",
-        namemenu: "Portfolio"
-    },
-    {
-        id: 4,
-        tomenu: "#testimonial",
-        namemenu: "Testimonial"
-    },
-    {
-        id: 5,
         tomenu: "#resume",
-        namemenu: "Resume"
+        namemenu: "Resume",
     },
+    /* {
+                id: 4,
+                tomenu: "#testimonial",
+                namemenu: "Testimonial"
+            },
+      {
+          id: 5,
+          tomenu: "#portfolio",
+          namemenu: "Portfolio",
+      },*/
 ];
 
-
-
-export default menus ;
+export default menus;

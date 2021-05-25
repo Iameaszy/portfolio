@@ -1,37 +1,37 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 class NumberCount extends Component {
-    constructor(props){
-        super(props);
-        this.state={
-            colleft: [
-                {
-                    id: 1,
-                    item: 'f-item color-s2 counter mg-f-item1',
-                    datato: '284',
-                    text: 'Hapy Client'
-                },
-                {
-                    id: 2,
-                    item: 'f-item color-s3 counter mg-f-item2',
-                    datato: '165',
-                    text: 'Review'
-                }
-            ],
-            colright: [
-                {
-                    id: 1,
-                    item: 'f-item color-s4 counter mg-f-item3',
-                    datato: '379',
-                    text: 'Project Complate'
-                }
-            ]
-        }
-    }
-    render() {
-        return (
-                <div className="d-md-flex mg-b40">
-                    <div className="col-left">
+  constructor(props) {
+    super(props);
+    this.state = {
+      colleft: [
+        {
+          id: 1,
+          item: "f-item color-s2 counter mg-f-item1",
+          datato: "284",
+          text: "Hapy Client",
+        },
+        {
+          id: 2,
+          item: "f-item color-s3 counter mg-f-item2",
+          datato: "165",
+          text: "Review",
+        },
+      ],
+      colright: [
+        {
+          id: 1,
+          item: "f-item color-s4 counter mg-f-item3",
+          datato: "379",
+          text: "Project Complate",
+        },
+      ],
+    };
+  }
+  render() {
+    return (
+      <div className="d-md-flex mg-b40">
+        {/*div className="col-left">
                         {
                             this.state.colleft.map(data => (
                                 <div className={data.item} key={data.id}>
@@ -59,9 +59,10 @@ class NumberCount extends Component {
                             ))
                         }
                     </div>
-                </div>
-        );
-    }
+                    */}
+      </div>
+    );
+  }
 }
 
 export default NumberCount;

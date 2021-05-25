@@ -1,9 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import links from "../links";
 import menus from "../menus";
-import bloglinks from "../bloglinks";
-
+import { facebookUrl, twitterUrl, instagramUrl } from "./constants";
 class Header extends Component {
   constructor(props) {
     super(props);
@@ -56,34 +54,35 @@ class Header extends Component {
                     ))}
                     <li>
                       <Link to="#">Blog</Link>
-                      <ul className="sub-menu">
+                      {/* <ul className="sub-menu">
                         {bloglinks.map((data) => (
                           <li key={data.id}>
                             <Link
                               to={data.toblog}
                               onClick={() => {
-                                window.location.href = data.toblog;
+                                //window.location.href = data.toblog;
                               }}>
                               {data.nameblog}
                             </Link>
                           </li>
                         ))}
                       </ul>
+                      */}
                     </li>
                   </ul>
                 </nav>
               </div>
             </div>
             <div className="socials-list-hd s3 hv2">
-              <Link to="#">
+              <a href={facebookUrl} target="_blank" rel="noreferrer">
                 <i className="fa fa-facebook" aria-hidden="true" />
-              </Link>
-              <Link to="#">
+              </a>
+              <a href={instagramUrl} target="_blank" rel="noreferrer">
                 <i className="fa fa-instagram" aria-hidden="true" />
-              </Link>
-              <Link to="#">
+              </a>
+              <a href={twitterUrl} target="_blank" rel="noreferrer">
                 <i className="fa fa-twitter" aria-hidden="true" />
-              </Link>
+              </a>
             </div>
           </div>
         </div>

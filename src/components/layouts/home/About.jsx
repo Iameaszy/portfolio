@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { Icon } from "../home/about/index";
-import { NumberCount } from "./about/index";
 
 class About extends Component {
   render() {
@@ -20,24 +19,21 @@ class About extends Component {
                 </h2>
                 <div className="description">
                   <p className="color-d13 lt-sp01">
-                    Hi, if you need PSD template, landing page or Website design
-                    within a day? then you can tell me, I'm here to help you. I
-                    can design any kind of PSD template. Check my portfolio.
-                  </p>
-                  <p className="color-d13 lt-sp01">
-                    If you need PSD template, landing page or Website design
-                    within a day? then you can tell me, I'm here to help you. I
-                    can design any kind of PSD template. Check my portfolio.
+                    My name is Yusuf and I am a software engineer. I have been
+                    developing websites and applications for around 3 years. I’m
+                    a full stack developer and have experience in DevOps too. My
+                    skills includes HTML, CSS, Javascript, NodeJS, React,
+                    Typescript, Gitlab CI/CD, CircleCI
                   </p>
                 </div>
               </div>
             </div>
-            <div className="fact">
-              <NumberCount />
+            <div className="fact col-lg-7 mt-5">
+              {/*<NumberCount />*/}
               <div className="btn-contact bg-s2 text-center">
                 <h4 className="title color-d11">Get a project? Let’s talk.</h4>
                 <Link to="#" className="email color-s2 color-d15">
-                  yourmail@email.com
+                  yusufadeniyi88@gmail.com
                 </Link>
               </div>
             </div>
