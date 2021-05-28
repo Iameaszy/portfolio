@@ -22,7 +22,7 @@ export const contentbot = [{
         - Added a Nginx for ssl termination and load balancing <br />
         - Implement caching to speed api calls
     `,
-        stack: "Wordpress, Html, Css, Javascript, Bootstrap",
+        stack: "Nodejs/Typescript/Nestjs/Graphql/Postgres",
     },
 
     {
@@ -41,16 +41,16 @@ export const contentbot = [{
         stack: "Javascript, Typescript, Nodejs, Expressjs, Mongodb, React, Nextjs, Redux, Azure, AWS(S3, Route53, Cloudfront), Stripe, Blackbaud",
     },
     /*{
-          id: 2,
-          classname: "experience-box experience-box-line t3",
-          datawow: "0.8s",
-          year: "02/2019 - 08/2019",
-          title: "Full-stack Developer",
-          company: "Leaps",
-          companyLink: "",
-          description: "User experience (UX) design is the process design teams use to create products.",
-          stack: "Javascript, React, Redux, Bootstrap, Nodejs, Express, Firebase",
-      },*/
+            id: 2,
+            classname: "experience-box experience-box-line t3",
+            datawow: "0.8s",
+            year: "02/2019 - 08/2019",
+            title: "Full-stack Developer",
+            company: "Leaps",
+            companyLink: "",
+            description: "User experience (UX) design is the process design teams use to create products.",
+            stack: "Javascript, React, Redux, Bootstrap, Nodejs, Express, Firebase",
+        },*/
     {
         id: 3,
         classname: "experience-box experience-box-line t3",

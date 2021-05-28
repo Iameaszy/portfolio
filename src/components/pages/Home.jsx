@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import {
   About,
   Banner,
+  CaseStudy,
   Education,
   Footer,
   Header,
@@ -9,7 +10,7 @@ import {
   Specilizing,
 } from "../layouts/home/index";
 
-class Home04 extends Component {
+class Home extends Component {
   render() {
     return (
       <div className="counter-scroll background-wrap-home4 fixed counter-scroll home4 has-one-page">
@@ -22,7 +23,7 @@ class Home04 extends Component {
             <Specilizing />
             <Project />
             <Education />
-            {/*<CaseStudy />*/}
+            <CaseStudy />
             {/*<Testimonial />*/}
             <Footer />
           </div>
@@ -32,4 +33,4 @@ class Home04 extends Component {
   }
 }
 
-export default Home04;
+export default Home;

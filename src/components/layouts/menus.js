@@ -14,15 +14,16 @@ const menus = [{
         namemenu: "Resume",
     },
     /* {
-                id: 4,
-                tomenu: "#testimonial",
-                namemenu: "Testimonial"
-            },
-      {
-          id: 5,
-          tomenu: "#portfolio",
-          namemenu: "Portfolio",
-      },*/
+                  id: 4,
+                  tomenu: "#testimonial",
+                  namemenu: "Testimonial"
+              },
+              */
+    {
+        id: 5,
+        tomenu: "#portfolio",
+        namemenu: "Portfolio",
+    },
 ];
 
 export default menus;
