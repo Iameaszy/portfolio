@@ -4,7 +4,7 @@ import About from "./About";
 import Specilizing from "./Specilizing";
 import Project from "./Project";
 import Education from "./Education";
-import CaseStudy from "./CaseStudy";
+import CaseStudy from "./projects";
 import Testimonial from "./Testimonial";
 import Footer from "./Footer";
 export {
