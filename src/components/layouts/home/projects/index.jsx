@@ -56,8 +56,8 @@ class CaseStudy extends Component {
                 </p>
               </div>
               <div className="pd-right">
-                {projects.map((project) => (
-                  <div className="image-link t2">
+                {projects.map((project, ind) => (
+                  <div key={ind} className="image-link t2">
                     <div className="featured-post">
                       <a href={project.link} target="_blank" rel="noreferrer">
                         <img
