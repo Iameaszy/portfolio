@@ -1,0 +1,36 @@
+.projectOverlay {
+    background: black;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s ease;
+    &:hover {
+        opacity: 0.6;
+        transition: ease-in-out 1s;
+    }
+}
+
+.imageLink {
+    position: relative;
+}
+
+.tagWrapper {
+    padding: 20px;
+    text-align: center;
+}
+
+.technology {
+    display: inline-block;
+    background: white;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    padding: 0 5px;
+    color: white;
+    background: #212529;
+}

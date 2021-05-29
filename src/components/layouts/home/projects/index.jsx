@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { projects } from "./data";
+import style from './index.module.scss'
 
-class CaseStudy extends Component {
+class Project extends Component {
   render() {
     return (
       <section className="flat-case-study s3" id="portfolio">
@@ -57,7 +58,16 @@ class CaseStudy extends Component {
               </div>
               <div className="pd-right">
                 {projects.map((project, ind) => (
-                  <div key={ind} className="image-link t2">
+                  <div key={ind} className={`image-link t2 ${style.imageLink}`}>
+                    <div className={style.projectOverlay}>
+                      <div  className={style.tagWrapper}>
+                      {project.technologies.map((tech,index)=>
+                        <span key={index} className={style.technology}>
+                          {tech}
+                        </span>
+                      )}
+                      </div>
+                    </div>
                     <div className="featured-post">
                       <a href={project.link} target="_blank" rel="noreferrer">
                         <img
@@ -65,7 +75,7 @@ class CaseStudy extends Component {
                           alt="images"
                         />
                       </a>
-                    </div>
+                  </div>
                   </div>
                 ))}
               </div>
@@ -77,4 +87,4 @@ class CaseStudy extends Component {
   }
 }
 
-export default CaseStudy;
+export default Project;
